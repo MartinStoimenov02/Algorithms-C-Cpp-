@@ -5,8 +5,11 @@ int n;
 
 float stepen(float x, int n)
 {
-	if(n==0)
+	if(n==0){
+        printf("n=%d\n", n);
 		return 1;
+	}
+
 	else
 	{
 		if(n>0){
